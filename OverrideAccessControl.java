@@ -10,7 +10,17 @@
 public class OverrideAccessControl {
 
     public static void main(String[] args) {
+        A a = new A();
+        System.out.println(a.m1);
+        System.out.println(a.m2);
+        System.out.println(a.m3);
+        System.out.println(a.m4);
 
+        B b = new B();
+        System.out.println(b.m1);
+        System.out.println(b.m2);
+        System.out.println(b.m3);
+        System.out.println(b.m4);
     }
 }
 
